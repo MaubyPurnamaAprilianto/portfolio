@@ -8,7 +8,7 @@ const WorkCard = (props) => {
       <img src={props.imgsrc} alt="Image" />
       <h2 className="project-title">{props.title}</h2>
       <div className="pro-details">
-        <p>{props.text}</p>
+        <p></p>
         <div className="pro-btns">
           <NavLink to={props.view} className="btn">
             View

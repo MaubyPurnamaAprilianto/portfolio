@@ -13,7 +13,12 @@ const Experience = () => {
         <div className="skill-container">
           {SkillCardData.map((val, ind) => {
             return (
-              <ExperienceCard key={ind} imgsrc={val.imgsrc} text={val.text} />
+              <ExperienceCard
+                key={ind}
+                imgsrc={val.imgsrc}
+                text={val.text}
+                color={val.color}
+              />
             );
           })}
         </div>

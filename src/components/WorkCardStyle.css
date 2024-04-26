@@ -14,32 +14,53 @@
 
 .project-card {
   background: #1a1919;
-  padding: 1.2rem 1rem;
+  border-radius: 5px;
+  border-right: 1px solid rgba(255, 232, 82, 0.3); /* Border di sebelah kanan */
+  border-left: 1px solid rgba(255, 232, 82, 0.3); /* Border di sebelah kiri */
+  border-bottom: 2px solid rgba(248, 217, 15, 0.5); /* Border di bawah */
+  box-shadow: 2px 0px 5px rgba(248, 217, 15, 0.1),
+    -2px 0px 5px rgba(248, 217, 15, 0.1), 0px 7px 9px rgba(248, 217, 15, 0.3);
 }
 
 .project-card img {
   width: 100%;
+  border-radius: 5px;
+}
+
+.project-card img:hover {
+  transform: scale(1.02);
+  transition: transform 0.1s ease;
 }
 
 .project-title {
   color: #eee;
-  padding: 1rem 0;
+  font-size: 1.4rem;
+  padding: 1rem 1rem 0;
+  text-transform: uppercase;
 }
 
 .pro-details p {
   padding-bottom: 1rem;
   font-size: 1.1rem;
   text-align: justify;
+  padding: 0 1rem;
 }
 
 .pro-btns {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 0;
+  padding: 1rem 1rem;
 }
 
 .pro-btns .btn {
   padding: 0.5rem 1rem;
+  border: none;
+  color: #555;
+  background-color: #1a1919;
+}
+
+.pro-btns .btn:hover {
+  color: #fff;
 }
 
 @media screen and (max-width: 740px) {

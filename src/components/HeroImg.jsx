@@ -11,12 +11,9 @@ const HeroImg = () => {
         <img className="into-img" src={IntroImg} alt="IntroImg" />
       </div>
       <div className="content">
-        <p>HI, I'M A MAUBY.</p>
-        <h1>
-          I'm a web developer in Dayeuhluhur
-          <br /> Welcome to My PORTFOLIO
-        </h1>
-        <div className="">
+        <p>HI, I'M A MAUBYPURNAMA.</p>
+        <h1>I'm a web developer in Dayeuhluhur Welcome to My PORTFOLIO</h1>
+        {/* <div className="">
           <Link
             to="project"
             spy={true}
@@ -37,7 +34,7 @@ const HeroImg = () => {
           >
             Contact
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -21,18 +21,21 @@
   display: flex; /* Use flexbox */
   flex-direction: column; /* Stack image on top of text */
   align-items: center; /* Center items horizontally */
-  border-right: 1px solid rgb(255, 232, 82); /* Border di sebelah kanan */
-  border-left: 1px solid rgb(255, 232, 82); /* Border di sebelah kiri */
-  border-bottom: 3px solid rgb(248, 217, 15); /* Border di bawah */
+  border-right: 1px solid rgba(255, 232, 82, 0.3);
+  border-left: 1px solid rgba(255, 232, 82, 0.3);
+  border-bottom: 3px solid rgba(248, 217, 15, 0.5);
 }
 
 .skill-card:hover {
-  transform: scale(1.01); /* Mengatur zoom 110% saat hover */
-  transition: transform 0.3s ease; /* Menambahkan transisi agar efek terjadi secara halus */
 }
 
 .skill-card img {
   width: 30%;
+}
+
+.skill-card img:hover {
+  transform: scale(1.05); /* Mengatur zoom 110% saat hover */
+  transition: transform 0.3s ease; /* Menambahkan transisi agar efek terjadi secara halus */
 }
 
 .skill-text {
