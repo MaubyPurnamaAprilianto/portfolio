@@ -14,7 +14,7 @@ const AboutContent = () => {
           I'm a react front-end developer. I create responsive secure website
           for my clients.
         </p>
-        <Link to="/contact">
+        <Link to="#contact">
           <button className="btn">Contact</button>
         </Link>
       </div>
