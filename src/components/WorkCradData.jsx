@@ -3,6 +3,7 @@ import pro2 from "../assets/pro2.png";
 import pro3 from "../assets/pro3.png";
 import pro4 from "../assets/pro4.png";
 import pro5 from "../assets/pro5.png";
+import pro6 from "../assets/pro6.png"
 
 const ProjectCardData = [
   {
@@ -35,9 +36,16 @@ const ProjectCardData = [
   },
   {
     imgsrc: pro5,
-    title: "Project Lomba CTRL + Team",
+    title: "Project Lomba",
     text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam beatae quibusdam architecto voluptatem vero ipsa.",
     view: "https://piringnusantara.netlify.app/",
+    source: "",
+  },
+  {
+    imgsrc: pro6,
+    title: "Project Fullstack #1",
+    text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam beatae quibusdam architecto voluptatem vero ipsa.",
+    view: "https://maubyproject.000webhostapp.com/",
     source: "",
   },
 ];

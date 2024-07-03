@@ -54,3 +54,14 @@
     font-size: 1.5rem;
   }
 }
+@media screen and (max-width: 440px) {
+  .skill-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .skill-text p {
+    font-size: 1.5rem;
+  }
+}
