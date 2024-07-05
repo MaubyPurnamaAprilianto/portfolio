@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { FaArrowDown } from "react-icons/fa"; // You can import other icons as needed
 import "./AboutContentStyle.css";
 import Mauby from "../assets/Mauby.png";
 

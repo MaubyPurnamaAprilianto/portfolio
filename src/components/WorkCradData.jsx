@@ -4,6 +4,7 @@ import pro3 from "../assets/pro3.png";
 import pro4 from "../assets/pro4.png";
 import pro5 from "../assets/pro5.png";
 import pro6 from "../assets/pro6.png"
+import pro7 from "../assets/pro7.png";
 
 const ProjectCardData = [
   {
@@ -46,6 +47,13 @@ const ProjectCardData = [
     title: "Project Fullstack #1",
     text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam beatae quibusdam architecto voluptatem vero ipsa.",
     view: "https://maubyproject.000webhostapp.com/",
+    source: "",
+  },
+  {
+    imgsrc: pro7,
+    title: "Consume Api TheMovie",
+    text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam beatae quibusdam architecto voluptatem vero ipsa.",
+    view: "https://the-movie-consume-api.vercel.app/",
     source: "",
   },
 ];
